@@ -1,0 +1,2 @@
+include ':app', 'BubbleLayout'
+project(':BubbleLayout').projectDir = new File('libs/BubbleLayout')

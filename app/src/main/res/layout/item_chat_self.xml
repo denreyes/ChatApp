@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="end"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/padding_horizontal_out_bubble"
+    android:paddingEnd="@dimen/padding_end_out_bubble"
+    android:paddingStart="@dimen/padding_border_bubble">
+
+    <com.daasuu.bl.BubbleLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/padding_horizontal_in_bubble"
+        android:paddingEnd="@dimen/padding_vertical_in_bubble"
+        android:paddingStart="@dimen/padding_vertical_in_bubble"
+        android:paddingTop="@dimen/padding_horizontal_in_bubble"
+        app:bl_arrowDirection="right_bottom"
+        app:bl_arrowHeight="@dimen/arrow_height"
+        app:bl_arrowWidth="@dimen/arrow_width"
+        app:bl_bubbleColor="@color/color_accent"
+        app:bl_cornersRadius="@dimen/bubble_corner_radius">
+
+        <TextView
+            android:id="@+id/tv_message"
+            style="@style/TextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_end_in_bubble"
+            android:text="Chat Message"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_subtitle" />
+
+    </com.daasuu.bl.BubbleLayout>
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/margin_vertical2"
+        android:text="Name" />
+
+</LinearLayout>

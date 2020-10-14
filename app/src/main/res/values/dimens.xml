@@ -1,0 +1,29 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="margin_vertical">12dp</dimen>
+    <dimen name="margin_vertical2">6dp</dimen>
+    <dimen name="margin_horizontal">6dp</dimen>
+    <dimen name="margin_horizontal2">12dp</dimen>
+    <dimen name="margin_horizontal3">26dp</dimen>
+    <dimen name="margin_end_in_bubble">6dp</dimen>
+
+    <dimen name="padding_horizontal_in_bubble">8dp</dimen>
+    <dimen name="padding_vertical_in_bubble">8dp</dimen>
+    <dimen name="padding_horizontal_out_bubble">24dp</dimen>
+    <dimen name="padding_end_out_bubble">4dp</dimen>
+    <dimen name="padding_border_bubble">38dp</dimen>
+
+    <dimen name="text_size_body">12sp</dimen>
+    <dimen name="text_size_subtitle">16sp</dimen>
+    <dimen name="text_size_title">20sp</dimen>
+    <dimen name="text_size_headline">32sp</dimen>
+
+    <dimen name="big_view_height">54dp</dimen>
+
+    <dimen name="divider_height">0.8dp</dimen>
+
+    <dimen name="arrow_height">12dp</dimen>
+    <dimen name="arrow_position">16dp</dimen>
+    <dimen name="arrow_width">6dp</dimen>
+    <dimen name="bubble_corner_radius">12dp</dimen>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:paddingEnd="@dimen/margin_vertical"
+    android:paddingStart="@dimen/margin_vertical"
+    android:visibility="gone">
+
+    <ImageView
+        android:id="@+id/iv_hero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="124dp"
+        android:src="@drawable/img_hero" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        style="@style/TextStyleBold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_hero"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-8dp"
+        android:text="@string/app_name"
+        android:textSize="@dimen/text_size_headline" />
+
+    <Button
+        android:id="@+id/btn_signup"
+        style="@style/DarkGreenRoundedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_title"
+        android:layout_marginTop="42dp"
+        android:text="@string/general_sign_up" />
+
+    <Button
+        android:id="@+id/btn_login"
+        style="@style/GreenRoundedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_signup"
+        android:layout_marginTop="@dimen/margin_horizontal2"
+        android:text="@string/general_login" />
+
+</RelativeLayout>

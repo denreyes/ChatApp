@@ -1,0 +1,62 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryDark">@color/color_primary_dark</item>
+        <item name="colorAccent">@color/color_accent</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="23">true</item>
+    </style>
+
+    <style name="TextStyle">
+        <item name="android:letterSpacing" tools:targetApi="lollipop">0.1</item>
+        <item name="android:textColor">@color/color_text</item>
+        <item name="android:textSize">@dimen/text_size_title</item>
+    </style>
+
+    <style name="TextStyleBold" parent="TextStyle">
+        <item name="fontPath">fonts/arial_bold.ttf</item>
+    </style>
+
+    <style name="ButtonStyle" parent="@style/Widget.AppCompat.Button.Borderless">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:foreground">?selectableItemBackground</item>
+        <item name="fontPath">fonts/arial_bold.ttf</item>
+        <item name="android:letterSpacing" tools:targetApi="lollipop">0.1</item>
+    </style>
+
+    <style name="GreenRoundedButton" parent="ButtonStyle">
+        <item name="android:background">@drawable/rounded_rect_green</item>
+        <item name="android:minHeight">@dimen/big_view_height</item>
+        <item name="android:textSize">@dimen/text_size_title</item>
+    </style>
+
+    <style name="DarkGreenRoundedButton" parent="ButtonStyle">
+        <item name="android:background">@drawable/rounded_rect_dark_green</item>
+        <item name="android:minHeight">@dimen/big_view_height</item>
+        <item name="android:textSize">@dimen/text_size_title</item>
+    </style>
+
+    <style name="GrayRoundedButton" parent="ButtonStyle">
+        <item name="android:background">@drawable/rounded_rect_gray</item>
+        <item name="fontPath">fonts/arial.ttf</item>
+        <item name="android:textSize">@dimen/text_size_subtitle</item>
+        <item name="android:minWidth">80dp</item>
+        <item name="android:minHeight">34dp</item>
+    </style>
+
+    <style name="RoundedEditText">
+        <item name="android:maxLines">1</item>
+        <item name="android:paddingEnd">@dimen/margin_vertical</item>
+        <item name="android:textColor">@color/color_text_light</item>
+        <item name="android:textColorHint">@color/color_text_light</item>
+        <item name="android:textSize">@dimen/text_size_title</item>
+        <item name="android:paddingStart">@dimen/margin_vertical</item>
+        <item name="android:minHeight">@dimen/big_view_height</item>
+        <item name="android:letterSpacing" tools:targetApi="lollipop">0.1</item>
+        <item name="android:background">@drawable/rounded_rect_white</item>
+    </style>
+
+</resources>
