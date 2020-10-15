@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libs/BubbleLayout/BubbleLayout.iml" filepath="$PROJECT_DIR$/.idea/modules/libs/BubbleLayout/BubbleLayout.iml" group="ChatApp-git/BubbleLayout" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChatApp-git.iml" filepath="$PROJECT_DIR$/.idea/modules/ChatApp-git.iml" group="ChatApp-git" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="ChatApp-git/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libs/BubbleLayout/BubbleLayout.iml" filepath="$PROJECT_DIR$/.idea/modules/libs/BubbleLayout/BubbleLayout.iml" group="ChatApp2/BubbleLayout" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChatApp2.iml" filepath="$PROJECT_DIR$/.idea/modules/ChatApp2.iml" group="ChatApp2" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="ChatApp2/app" />
     </modules>
   </component>
 </project>
